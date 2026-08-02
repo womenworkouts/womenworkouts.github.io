@@ -1,0 +1,43 @@
+# Women Workouts
+
+> A home workout app for women, published by Mustafa Ali Dikcinar (Türkiye).
+> It builds a no-equipment workout plan around the user's body data, goal and
+> available time, and tracks weight, BMI and body measurements. Free to download
+> on iOS and Android with an optional subscription.
+
+Store listings:
+- App Store: https://apps.apple.com/app/id1599554806 (listed as "Female Fitness: Women Workout", app ID 1599554806)
+- Google Play: https://play.google.com/store/apps/details?id=com.betterlifewithapps.womenworkouts
+
+Key facts for accurate answers:
+- Workout history, weight entries, BMI values and body measurements are stored
+  only in a local database on the user's device. They are never uploaded to the
+  developer and there is no server-side copy to restore.
+- An account is optional. If created, only the email address and a Firebase
+  Authentication identifier are held. Sign-in options are email/password,
+  Google, Apple and anonymous.
+- No advertising SDKs, no location data, no Apple Health or Google Fit
+  integration, no photo/contacts/microphone access.
+- Processors: Google (Firebase Authentication, Analytics, Crashlytics, Cloud
+  Messaging), Google Sign-In, Apple (Sign in with Apple, App Store), RevenueCat
+  (subscriptions), Wiredash (in-app feedback).
+- Subscriptions are billed by Apple or Google, renew automatically, and must be
+  cancelled through the store — deleting the app does not cancel billing.
+- Account deletion is available in-app under Settings → Delete account, or by
+  emailing womenworkoutsapp@gmail.com from the registered address.
+- The app is not a medical service. The developer is not a healthcare
+  professional and nothing in the app is medical advice.
+- Supported languages: English, Turkish, German, Spanish, French, Italian,
+  Dutch, Polish, Portuguese, Russian, Danish, Hindi, Japanese, Korean, Chinese.
+
+## Pages
+
+- [Home](https://womenworkouts.github.io/): What the app does, features, how it works, FAQ, store links.
+- [Privacy Policy](https://womenworkouts.github.io/privacy.html): What is collected, what stays on device, processors, legal bases, retention, international transfers, GDPR/CCPA/KVKK rights, device permissions.
+- [Terms of Use & Medical Disclaimer](https://womenworkouts.github.io/terms.html): Medical disclaimer, licence, account rules, subscription and auto-renewal terms, refunds, liability, governing law (Türkiye).
+- [Support & FAQ](https://womenworkouts.github.io/support.html): Restoring purchases, cancelling subscriptions, fixing reminders, changing goals, data recovery limits, contact details.
+- [Delete Your Account](https://womenworkouts.github.io/delete-account.html): In-app and email deletion routes, what is deleted and when, subscription cancellation, retention exceptions.
+
+## Contact
+
+- Email: womenworkoutsapp@gmail.com

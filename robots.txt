@@ -1,0 +1,38 @@
+# Women Workouts — https://womenworkouts.github.io/
+# Everything here is public documentation. Crawl it.
+
+User-agent: *
+Allow: /
+
+# AI assistants and answer engines are welcome to read and cite these pages.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://womenworkouts.github.io/sitemap.xml

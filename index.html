@@ -1,52 +1,345 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Women Workouts No Equipment App</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Women Workouts — Female Fitness &amp; Home Workout App for Women</title>
+<meta name="description" content="Women Workouts builds a home workout plan around your body, goal and schedule. No equipment, guided exercises, weight and BMI tracking, body measurements and reminders. Free on iOS and Android.">
+<link rel="canonical" href="https://womenworkouts.github.io/">
+<meta name="theme-color" content="#f2548b" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151215" media="(prefers-color-scheme: dark)">
+<meta name="author" content="Mustafa Ali Dikcinar">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Women Workouts">
+<meta property="og:url" content="https://womenworkouts.github.io/">
+<meta property="og:title" content="Women Workouts — Female Fitness &amp; Home Workout App for Women">
+<meta property="og:description" content="A home workout plan built around your body, goal and schedule. No equipment, weight and BMI tracking, body measurements and reminders.">
+<meta property="og:image" content="https://womenworkouts.github.io/assets/img/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Women Workouts app icon beside the words Female Fitness Women Workout.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Women Workouts — Female Fitness &amp; Home Workout App for Women">
+<meta name="twitter:description" content="A home workout plan built around your body, goal and schedule. No equipment needed.">
+<meta name="twitter:image" content="https://womenworkouts.github.io/assets/img/og-cover.png">
+<meta name="apple-itunes-app" content="app-id=1599554806">
+
+<link rel="icon" href="assets/img/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://womenworkouts.github.io/#website",
+      "url": "https://womenworkouts.github.io/",
+      "name": "Women Workouts",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://womenworkouts.github.io/#publisher" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://womenworkouts.github.io/#publisher",
+      "name": "Women Workouts",
+      "url": "https://womenworkouts.github.io/",
+      "logo": "https://womenworkouts.github.io/assets/img/icon-512.png",
+      "founder": { "@type": "Person", "name": "Mustafa Ali Dikcinar" },
+      "email": "womenworkoutsapp@gmail.com",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "womenworkoutsapp@gmail.com",
+        "availableLanguage": ["English", "Turkish"]
+      }]
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://womenworkouts.github.io/#app",
+      "name": "Female Fitness: Women Workout",
+      "alternateName": ["Women Workouts", "Lose Weight: Female Fitness"],
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Fitness",
+      "operatingSystem": "iOS 15.0 or later, Android",
+      "url": "https://womenworkouts.github.io/",
+      "image": "https://womenworkouts.github.io/assets/img/icon-512.png",
+      "screenshot": "https://womenworkouts.github.io/assets/img/og-cover.png",
+      "description": "Home workout app for women. Answer a few questions about your body, goal and available time and the app builds a no-equipment plan that adapts as you progress. Includes guided exercises, weight and BMI tracking, body measurements, a daily calorie target and workout reminders.",
+      "inLanguage": ["en","tr","de","es","fr","it","nl","pl","pt","ru","da","hi","ja","ko","zh"],
+      "contentRating": "4+",
+      "datePublished": "2021-12-14",
+      "author": { "@id": "https://womenworkouts.github.io/#publisher" },
+      "publisher": { "@id": "https://womenworkouts.github.io/#publisher" },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "category": "free with in-app purchases",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "36"
+      },
+      "featureList": [
+        "Personalized home workout plan",
+        "No equipment required",
+        "Guided exercises with instructions",
+        "Weight and BMI tracking",
+        "Body measurement tracking",
+        "Daily calorie target",
+        "Workout reminders",
+        "15 languages"
+      ],
+      "downloadUrl": [
+        "https://apps.apple.com/app/id1599554806",
+        "https://play.google.com/store/apps/details?id=com.betterlifewithapps.womenworkouts"
+      ],
+      "privacyPolicy": "https://womenworkouts.github.io/privacy.html"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://womenworkouts.github.io/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need any equipment for Women Workouts?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Every workout is designed for home and needs nothing but floor space. If you have a mat it is more comfortable, but it is not required." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Women Workouts free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The app is free to download and includes free workouts. An optional subscription unlocks the full plan and premium features. You can use the free part without ever subscribing." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the app suitable for complete beginners?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. During setup you choose your fitness level. Beginners start at a gentle pace with shorter sessions and the plan builds up as you progress." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my workout and body data stored?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Your workout history, weight entries and body measurements are stored locally in the app's database on your device. If you create an account, only your account details are held by Firebase Authentication." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I delete my account?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Open the app, go to Settings and choose Delete account. You can also email womenworkoutsapp@gmail.com from your registered address. Full instructions are on the account deletion page." }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
- 
- 
+<a class="skip-link" href="#main">Skip to content</a>
 
-<h1>Women Workouts No Equipment App</h1>
- <a href = "https://apps.apple.com/us/app/gym-workout-tracker-planner/id1567930312#?platform=iphone">App store</a>
- <p> <a href = "https://play.google.com/store/apps/details?id=com.mdikcinar.workoutplanner">Play store</a></p>
- <p></p>
- 
- <p>Health and Fitness | Workout Apps for Women Free </p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="assets/img/icon-192.png" width="34" height="34" alt="" loading="eager" decoding="async">
+      Women Workouts
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
 
-<p>💪 <b> The BEST app for female fitness, weight loss & health!</b></p>
-<p>💪 <b> Beginner, Intermediate & Advanced routines</b></p>
-<p>💪 <b> Create your personalized workout plan</b></p>
-<p>💪 <b> Workout at home and get your body fit on</b></p>
-<p>💪 <b> Track your weight and bmi</b></p>
+<main id="main">
 
-<p><h2><b>Sweat workouts get fit quickly</b></h2></p>
-<p><b>Lose weight, Get rid of your belly fat, shape your butt, get a bikini body</b> workout any time anywhere.</p>
-<p>Full body workout focuses belly, butt, glutes, abs, core, legs, arms, fat, booty, back, fat loss, weight loss, bbg, thigh gap. </p>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">No equipment · At home</p>
+          <h1>Female fitness that fits <span class="accent">your body, not a template</span></h1>
+          <p class="lede">Tell Women Workouts your goal, your body data and how much time you actually have. Your home workout plan is built around those answers and keeps adjusting as you progress.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://apps.apple.com/app/id1599554806" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.3 12.8c0-2.2 1.8-3.3 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.6 2.2-1.6 2.7-.4 6.7 1.1 8.9.7 1.1 1.6 2.3 2.7 2.2 1.1 0 1.5-.7 2.8-.7s1.7.7 2.9.7c1.2 0 1.9-1.1 2.6-2.1.8-1.2 1.2-2.4 1.2-2.5-.1 0-2.1-.8-2.1-3.7zM14.1 6.3c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.6-1.1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2z"/></svg>
+              Download on the App Store
+            </a>
+            <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.betterlifewithapps.womenworkouts" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.6 2.3zM16.3 15.1l-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1 .6 1 1.6 0 2.2l-3.8 2zM15.6 15.8L12.4 12.6l-9.3 9.3c.3.4.9.4 1.6 0l10.9-6.1M15.6 8.2L4.7 2.1C4 1.7 3.4 1.8 3.1 2.2l9.3 9.3 3.2-3.3z"/></svg>
+              Get it on Google Play
+            </a>
+          </div>
+          <p class="hero-note">Free to download · Optional subscription · iOS 15+ and Android</p>
+        </div>
+        <div class="hero-art">
+          <div class="app-tile">
+            <span class="icon-card">
+              <img src="assets/img/icon-512.png" width="512" height="512" alt="Women Workouts app icon" fetchpriority="high" decoding="async">
+            </span>
+            <span class="tile-badge">Rated 4.7 ★ on the App Store</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<p><h2><b>Track and Log your Weight </b></h2></p>
-<p>To get better results Women Workouts logs your weight. And keeps you motivated.</p>
+  <section class="section section-tint" id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Everything the plan needs, nothing it does not</h2>
+        <p>Women Workouts is a home workout app for women — weight loss, belly fat, glutes, thighs and full-body strength, all without a gym.</p>
+      </div>
 
-<p><h2><b>Like Your Personal Trainer</b></h2></p>
-<p>Female tailored workouts to help you get better and achieve your fitness goal.</p>
-<p>Better you, Better me! Lose your weights in 7 minutes.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon i-rose" aria-hidden="true">◎</div>
+          <h3>A plan built around you</h3>
+          <p>Your age, weight, BMI, fitness level and available time shape the plan. Whether you want to lose weight, build muscle or simply keep fit, the plan follows that goal.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon i-lavender" aria-hidden="true">⌂</div>
+          <h3>Train at home, with nothing</h3>
+          <p>Every workout is designed for home and needs no equipment. Short sessions fit a busy day, longer ones are there when you have the time.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon i-mint" aria-hidden="true">◍</div>
+          <h3>Focus on what you care about</h3>
+          <p>Choose flat abs, glutes, toned arms, thighs or legs and the plan is weighted toward what you picked. Change your focus whenever your goal changes.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon i-sky" aria-hidden="true">◔</div>
+          <h3>Guided, not guessed</h3>
+          <p>Each exercise comes with a visual demonstration and written instructions, plus a rest timer between sets so you always know what comes next.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon i-peach" aria-hidden="true">◈</div>
+          <h3>See progress, not just effort</h3>
+          <p>Weight and BMI tracked over time with clear charts, body measurements for waist, hips, thighs and arms, workout history and a daily calorie target.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon i-rose" aria-hidden="true">◷</div>
+          <h3>Build the habit</h3>
+          <p>Set reminders for the days and times you plan to train. A routine you can keep beats a routine you dread.</p>
+        </article>
+      </div>
 
-<p><h2><b>Features</b></h2></p>
-<p>● Exercises with images and instructions included</p>
-<p>● Rest timer and notifier between sets</p>
-<p>● Detailed weight progress chart</p>
-<p>● Cloud backup</p>
-<p>● Dark mode</p>
+      <div class="stat-row">
+        <div class="stat"><b>4.7 ★</b><span>36 App Store ratings (US)</span></div>
+        <div class="stat"><b>0</b><span>Pieces of equipment needed</span></div>
+        <div class="stat"><b>15</b><span>Languages supported</span></div>
+        <div class="stat"><b>4+</b><span>Age rating</span></div>
+      </div>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How it works</h2>
+        <p>Answer a few questions, get your plan and finish your first workout before you close the app.</p>
+      </div>
+      <ol class="steps">
+        <li><strong>Tell us about you.</strong> Age, height, weight, current fitness level and how many days a week you can realistically train.</li>
+        <li><strong>Pick your goal and focus area.</strong> Lose weight, build muscle or keep fit — then choose the areas you want the plan weighted toward.</li>
+        <li><strong>Start your first workout.</strong> Guided exercise by exercise, with a rest timer between sets.</li>
+        <li><strong>Log and adjust.</strong> Record weight and measurements as you go. The plan and your daily calorie target move with you.</li>
+      </ol>
+    </div>
+  </section>
 
-<p><h2>----- CONTACT US -----</h2></p>
-<p>Women Workouts App</p>
+  <section class="section section-tint" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Frequently asked questions</h2>
+        <p>Still stuck? The <a href="support.html">support page</a> has more, or email us directly.</p>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Do I need any equipment?</summary>
+          <p>No. Every workout is designed for home and needs nothing but floor space. A mat makes floor work more comfortable, but it is not required.</p>
+        </details>
+        <details>
+          <summary>Is Women Workouts free?</summary>
+          <p>The app is free to download and includes free workouts. An optional subscription unlocks the full plan and premium features. You can use the free part without ever subscribing — see the <a href="terms.html#subscriptions">subscription terms</a> for details.</p>
+        </details>
+        <details>
+          <summary>Is it suitable for complete beginners?</summary>
+          <p>Yes. During setup you choose your fitness level. Beginners start at a gentle pace with shorter sessions, and the plan builds up as you progress.</p>
+        </details>
+        <details>
+          <summary>Where is my workout and body data stored?</summary>
+          <p>Your workout history, weight entries and body measurements are stored in the app's database on your own device. If you create an account, only your account details are held by Firebase Authentication. The full picture is in the <a href="privacy.html">privacy policy</a>.</p>
+        </details>
+        <details>
+          <summary>How do I delete my account?</summary>
+          <p>Open the app, go to <strong>Settings → Delete account</strong>. You can also email us from your registered address. Step-by-step instructions are on the <a href="delete-account.html">account deletion page</a>.</p>
+        </details>
+        <details>
+          <summary>Which languages are supported?</summary>
+          <p>English, Turkish, German, Spanish, French, Italian, Dutch, Polish, Portuguese, Russian, Danish, Hindi, Japanese, Korean and Chinese.</p>
+        </details>
+      </div>
+    </div>
+  </section>
 
-<p>For Help,Ideas and Comments </p>
-<p>womenworkoutsapp@gmail.com</p></p>
-  <a href = "https://womenworkouts.github.io/terms.html">Terms</a>
-  <a href = "https://womenworkouts.github.io/privacy.html">Privacy</a>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Start today</h2>
+        <p>Answer a few questions, get your plan and finish your first workout before you close the app.</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://apps.apple.com/app/id1599554806" rel="noopener">Download on the App Store</a>
+        <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.betterlifewithapps.womenworkouts" rel="noopener">Get it on Google Play</a>
+      </div>
+    </div>
+  </section>
 
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>App</h2>
+        <ul>
+          <li><a href="https://apps.apple.com/app/id1599554806" rel="noopener">App Store</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.betterlifewithapps.womenworkouts" rel="noopener">Google Play</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="support.html">Support &amp; FAQ</a></li>
+          <li><a href="delete-account.html">Delete your account</a></li>
+          <li><a href="mailto:womenworkoutsapp@gmail.com">womenworkoutsapp@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Legal</h2>
+        <ul>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms &amp; medical disclaimer</a></li>
+          <li><a href="terms.html#subscriptions">Subscription terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Mustafa Ali Dikcinar. All rights reserved.</p>
+      <p>Women Workouts is not a medical service. <a href="terms.html#medical-disclaimer">Read the disclaimer</a>.</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
