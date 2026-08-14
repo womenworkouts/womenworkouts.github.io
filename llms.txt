@@ -16,8 +16,13 @@ Key facts for accurate answers:
 - An account is optional. If created, only the email address and a Firebase
   Authentication identifier are held. Sign-in options are email/password,
   Google, Apple and anonymous.
-- No advertising SDKs, no location data, no Apple Health or Google Fit
-  integration, no photo/contacts/microphone access.
+- No advertising SDKs, no location data, no photo/contacts/microphone access.
+- Apple Health (iOS) and Health Connect (Android) integration is optional and
+  stays off until the user turns it on and grants permission. It reads steps,
+  active energy burned, workouts, weight and height, and writes finished
+  workouts with their calories plus weight and height entries. No other data
+  type is requested. Health data is read and written on the device only, is
+  never uploaded to the developer, and is never used for advertising.
 - Processors: Google (Firebase Authentication, Analytics, Crashlytics, Cloud
   Messaging), Google Sign-In, Apple (Sign in with Apple, App Store), RevenueCat
   (subscriptions), Wiredash (in-app feedback).

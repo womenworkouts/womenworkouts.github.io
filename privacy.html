@@ -34,7 +34,7 @@
   "name": "Women Workouts Privacy Policy",
   "url": "https://womenworkouts.github.io/privacy.html",
   "inLanguage": "en",
-  "dateModified": "2026-08-02",
+  "dateModified": "2026-08-15",
   "description": "How the Women Workouts app collects, uses and protects personal data.",
   "isPartOf": { "@type": "WebSite", "@id": "https://womenworkouts.github.io/#website" },
   "publisher": {
@@ -76,7 +76,7 @@
 
 <div class="page-hero">
   <div class="wrap">
-    <p class="updated"><span aria-hidden="true">●</span> Last updated 2 August 2026</p>
+    <p class="updated"><span aria-hidden="true">●</span> Last updated 15 August 2026</p>
     <h1>Privacy policy</h1>
     <p>This policy explains what the Women Workouts app collects, what never leaves your phone, who processes the rest and how you can get it deleted. It is written to be read, not skimmed past.</p>
   </div>
@@ -92,6 +92,7 @@
       <li><a href="#who-we-are">Who we are</a></li>
       <li><a href="#what-we-collect">What we collect</a></li>
       <li><a href="#on-device">What stays on your device</a></li>
+      <li><a href="#health-data">Apple Health and Health Connect</a></li>
       <li><a href="#why">Why we use it</a></li>
       <li><a href="#processors">Services that process data</a></li>
       <li><a href="#sharing">Sharing and selling</a></li>
@@ -164,7 +165,7 @@
       <ul>
         <li>No precise or coarse location data.</li>
         <li>No contacts, calendar, photos or camera access.</li>
-        <li>No data from Apple Health or Google Fit — the app does not connect to them.</li>
+        <li>No data from Apple Health or Health Connect unless you switch the connection on yourself — see <a href="#health-data">Apple Health and Health Connect</a>. Nothing read from them is sent to us either way.</li>
         <li>No microphone recording. Audio is only played out, never captured.</li>
         <li>No advertising identifier, no ad networks, no cross-app tracking.</li>
       </ul>
@@ -182,6 +183,40 @@
       </ul>
       <p>Because this data lives only on your device, two things follow. First, we cannot recover it for you — if you delete the app or lose the phone, that history is gone. Second, deleting the app deletes the data. There is no copy on our side to ask us about.</p>
       <p>Sensitive values held by the app are kept in the platform's secure storage (Keychain on iOS, EncryptedSharedPreferences on Android).</p>
+    </section>
+
+    <section id="health-data">
+      <h2>Apple Health and Health Connect</h2>
+      <p>The app can connect to <strong>Apple Health</strong> on iOS and <strong>Health Connect</strong> on Android so your workouts and body data are in one place. The connection is <strong>off until you turn it on</strong> and grant permission, and you can turn it off again at any time. The feature is optional — every other part of the app works without it.</p>
+
+      <h3>What we read</h3>
+      <p>Only when you have granted the matching permission, and only to display your progress and to make calorie estimates more accurate:</p>
+      <ul>
+        <li>Steps recorded by your phone or your watch.</li>
+        <li>Active energy burned.</li>
+        <li>Workouts recorded by other apps or by your watch, including their type, duration and energy.</li>
+        <li>Weight and height.</li>
+      </ul>
+      <p>Nothing else is requested. We do not read heart rate, sleep, nutrition, water intake, blood glucose, menstrual or reproductive health data, or any other data type.</p>
+
+      <h3>What we write</h3>
+      <p>Only when you have granted the matching permission:</p>
+      <ul>
+        <li>Workouts you finish in the app, with their start and end time and the total calories we estimate you burned.</li>
+        <li>Weight and height entries you record in the app.</li>
+      </ul>
+      <p>We do not write anything you did not create in the app, and we never delete data written by another app.</p>
+
+      <h3>Where it goes</h3>
+      <p><strong>Nowhere.</strong> Health data is read from and written to the health store on your own phone. It is never uploaded to our servers, never attached to analytics or crash reports, never given to advertisers or data brokers, and never sold. We have no copy of it and no way to see it. It is not used to make any decision about you beyond drawing your own charts and estimating your own calories.</p>
+
+      <h3>Turning it off and deleting it</h3>
+      <ul>
+        <li><strong>Revoke access at any time.</strong> On iOS: <em>Settings → Health → Data Access &amp; Devices → Women Workouts</em>, or <em>Privacy &amp; Security → Health</em>. On Android: open the <em>Health Connect</em> app (or <em>Settings → Security &amp; privacy → More privacy settings → Health Connect</em>), choose <em>App permissions → Women Workouts</em>, and remove the permissions. You can also disconnect from inside the app.</li>
+        <li><strong>Delete what we wrote.</strong> Health data written by the app lives in Apple Health or Health Connect, so you delete it there. On iOS, open the Health app, find the data type and remove the entries whose source is Women Workouts, or use <em>Data Access &amp; Devices → Women Workouts → Delete All Data From Women Workouts</em>. On Android, use <em>Health Connect → Data and access</em>, or <em>App permissions → Women Workouts → Delete all data</em>.</li>
+        <li><strong>Revoking access does not delete anything already written</strong> — it only stops further reading and writing. Use the steps above if you also want the entries gone.</li>
+      </ul>
+      <p>Health Connect is a separate Google app on Android. What it does with the data it stores is governed by Google's own privacy policy, not by this one.</p>
     </section>
 
     <section id="why">
@@ -252,6 +287,7 @@
           <tbody>
             <tr><td>Account data</td><td>Until you delete your account, then removed within 30 days</td></tr>
             <tr><td>Body and workout data</td><td>On your device only, until you delete it or uninstall the app</td></tr>
+            <tr><td>Apple Health / Health Connect data</td><td>Held by Apple Health or Health Connect on your device, until you delete it there</td></tr>
             <tr><td>Usage analytics</td><td>Up to 14 months, then deleted automatically by Firebase</td></tr>
             <tr><td>Crash reports</td><td>Up to 90 days</td></tr>
             <tr><td>Subscription records</td><td>For the life of the subscription plus the period required by tax and accounting law</td></tr>
@@ -316,6 +352,8 @@
             <tr><td>Network access</td><td>Signing in, restoring purchases, downloading exercise content</td><td>Required for those features</td></tr>
             <tr><td>Vibration</td><td>Haptic cues during timed exercises and rest periods</td><td>Optional</td></tr>
             <tr><td>Keep screen awake</td><td>Stops the screen sleeping mid-workout</td><td>Used only while a workout runs</td></tr>
+            <tr><td>Apple Health / Health Connect</td><td>Reading and writing the health data listed under <a href="#health-data">Apple Health and Health Connect</a></td><td>Optional</td></tr>
+            <tr><td>Physical activity (Android)</td><td>Required by Android before Health Connect will hand over step and activity data</td><td>Optional</td></tr>
           </tbody>
         </table>
       </div>
